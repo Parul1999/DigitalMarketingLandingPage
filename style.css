@@ -1,0 +1,49 @@
+*{
+    font-family: roboto;
+}
+/* Navbar*/
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.list{
+    color: #cdcdcd;
+    display: flex;
+    list-style: none;
+    gap: 4rem;
+}
+.list-item:hover{
+    cursor: pointer;
+    color: #000000;
+}
+.nav-button{
+    background-color: #5955b3;
+    color: #ffffff;
+    border: transparent;
+    border-radius: 5px;
+    padding: 0.8rem;
+    font-size: large;
+}
+
+/* Banner */
+.banner-container{
+    display: flex;
+    padding: 0 2rem;
+}
+.heading-text{
+    font-size: 6em;
+    margin-block-end: 0;
+}
+.heading-text>span{
+    color: #5955b3;
+}
+.description{
+    color: #999999
+ }
+.btn{
+    position: absolute;
+    bottom: 0;
+    padding: 0.8rem 1.5rem;
+}
